@@ -1,9 +1,10 @@
 <div align="center">
 	<h1>Algoritmos e Técnicas de Programação II.
 		<br/>
-			<sub>Resolução dos exercícios da disciplina
-        <a href="https://www.fct.unesp.br/#!/graduacao/ciencia-da-computacao/">CIC011DMC4T1</a>
-      </sub>
+			<h4>Resolução de exercícios trabalhados no curso de 
+        <a href="https://www.fct.unesp.br/#!/graduacao/ciencia-da-computacao/">Ciência da Computação</a>
+				 da FCT - UNESP
+      </h4>
 	</h1>
 </div>
 
