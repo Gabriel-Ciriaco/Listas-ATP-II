@@ -10,7 +10,7 @@
 ---
 ### Enunciado dos exercícios
 
-[Lista2.pdf]("https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Lista%202.pdf")
+[Lista2.pdf](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Lista%202.pdf)
 
 ---
 
