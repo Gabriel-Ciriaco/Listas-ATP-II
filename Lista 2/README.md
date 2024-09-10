@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>Algoritmos e Técnicas de Programação II.
+	<h1>Lista 2
 		<br/>
 			<sub>Resolução dos exercícios da disciplina
         <a href="https://www.fct.unesp.br/#!/graduacao/ciencia-da-computacao/">CIC011DMC4T1</a>
@@ -8,13 +8,9 @@
 </div>
 
 ---
-### Progresso
+### Enunciado dos exercícios
 
-* [x] Lista 1
-* [ ] Lista 2
-* [ ] Lista 3
-* [ ] Lista 4
-* [x] Lista 5
+[Lista2.pdf]("https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Lista%202.pdf")
 
 ---
 
