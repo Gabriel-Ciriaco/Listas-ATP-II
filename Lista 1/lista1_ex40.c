@@ -29,12 +29,10 @@ int main()
 
 void inverter(int * numeros)
 {
-    int i = 0;
-
     for (int i = 0; i < (int) NUM_MAX / 2; i++)
     {
-        // Usando a lógica do XOR, conseguimos
-        // trocar os valores das variaveis sem uma temporária.
+        // Usando a lÃ³gica do XOR, conseguimos
+        // trocar os valores das variaveis sem uma temporÃ¡ria.
         numeros[i] ^= numeros[NUM_MAX - 1 - i];
         numeros[NUM_MAX - 1 - i] ^= numeros[i];
         numeros[i] ^= numeros[NUM_MAX - 1 - i];
