@@ -29,10 +29,6 @@ int pow(int n, int pot)
     {
         return 1;
     }
-    else if(pot == 1)
-    {
-        return n;
-    }
     else
     {
         return n * pow(n, pot - 1);
