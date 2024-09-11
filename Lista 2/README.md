@@ -8,7 +8,9 @@
 </div>
 
 ---
-### Progresso
+## Progresso
+
+![Resolvidos 36%](https://progress-bar.xyz/36/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/lista2_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/lista2_ex02.c)
@@ -70,11 +72,9 @@
 * [ ] [Exercício 58](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/lista2_ex58.c)
 * [ ] [Exercício 59](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/lista2_ex59.c)
 * [ ] [Exercício 60](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/lista2_ex60.c)
-      
----
 
 ---
-### Enunciado dos exercícios
+## Enunciado dos exercícios
 
 [Lista2.pdf](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Lista%202.pdf)
 
