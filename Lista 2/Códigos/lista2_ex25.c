@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 #include <locale.h>
 
 #define LARGURA 5
@@ -12,35 +11,48 @@ int regras_universo(int estado_celula, int qtd_vizinhos_vivos);
 
 void aplicar_regras(int * ptr_universo);
 
+
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "portuguese");
 
-    int universo[LARGURA][ALTURA] = {{0, 0, 0, 1, 1},
-                                     {0, 1, 0, 0, 1},
-                                     {0, 1, 0, 0, 1},
-                                     {0, 1, 1, 1, 0},
-                                     {0, 0, 0, 1, 0}};
+    int universo[LARGURA][ALTURA] = {{0, 0, 0, 0, 0},
+                                     {0, 0, 1, 0, 0},
+                                     {0, 1, 1, 0, 0},
+                                     {0, 0, 1, 1, 0},
+                                     {0, 0, 0, 0, 0}};
 
     int geracoes = 0;
 
-    printf("Digite o número de gerações: ");
-
+    printf("Digite o número de gerações do jogo de Conway: ");
     scanf("%d", &geracoes);
-
 
     for (int i = 0; i < geracoes; i++)
     {
+        // Limpar o console.
         system("cls");
+
+        // Imprimir geração.
         printf("Geração: %d\n\n", i + 1);
+
+        // Imprimir o universo.
         imprimir_matriz(universo, LARGURA, ALTURA);
+
+        // Atualizar o universo.
         aplicar_regras(universo);
-        usleep(100 * 1000);
+
+        // Esperar 1 segundo.
+        sleep(1);
     }
 
     return 0;
 }
 
+/*
+    Aplica as regras do jogo de Conway no nosso universo,
+    ou seja, muda o estado das células para vivo ou morto
+    de acordo com as regras impostas.
+*/
 void aplicar_regras(int  * ptr_universo)
 {
     int (* universo)[ALTURA] = ptr_universo;
@@ -66,6 +78,7 @@ void aplicar_regras(int  * ptr_universo)
                 {
                     qtd_vizinhos_vivos += universo[i - 1][j + 1];
                 }
+
                 // Vizinho direito baixo
                 if (i < LARGURA - 1)
                 {
@@ -84,6 +97,7 @@ void aplicar_regras(int  * ptr_universo)
                 {
                     qtd_vizinhos_vivos += universo[i - 1][j - 1];
                 }
+
                 // Vizinho esquerdo baixo
                 if (i < LARGURA - 1)
                 {
@@ -119,8 +133,19 @@ void aplicar_regras(int  * ptr_universo)
 }
 
 /*
-    Uma célula é viva quando seu estado é 1.
-    Uma célula é morta quando seu estado é 0.
+    Uma célula é VIVA quando seu estado é UM.
+    Uma célula é MORTA quando seu estado é ZERO.
+
+    As regras são as seguintes:
+
+    1 - Qualquer célula viva com menos de dois vizinhos vivos morre.
+
+    2 - Qualquer célula viva com dois ou três vizinhos vivos vive.
+
+    3 - Qualquer célula viva com mais de três vizinhos morre.
+
+    4 - Qualquer célula morta com exatos três vizinhos vivos renasce.
+
 */
 int regras_universo(int estado_celula, int qtd_vizinhos_vivos)
 {
@@ -136,6 +161,7 @@ int regras_universo(int estado_celula, int qtd_vizinhos_vivos)
         if (qtd_vizinhos_vivos == 2 ||
             qtd_vizinhos_vivos == 3)
         {
+            // A célula vive
             return 1;
         }
     }
@@ -143,15 +169,19 @@ int regras_universo(int estado_celula, int qtd_vizinhos_vivos)
     {
         if (qtd_vizinhos_vivos == 3)
         {
+            // A célula vive
             return 1;
         }
-        else
-        {
-            return 0;
-        }
+
+        return 0;
     }
 }
 
+/*
+    Célula viva: '*'.
+
+    Célula morta: '.'.
+*/
 void imprimir_matriz(int * ptr_matriz, int largura, int altura)
 {
     // Criamos um array de ponteiros com o tamanho da altura.
@@ -162,6 +192,7 @@ void imprimir_matriz(int * ptr_matriz, int largura, int altura)
         for (int j = 0; j < altura; j++)
         {
             char celula = matriz[i][j] == 1 ? '*' : '.';
+
             printf(" %c " , celula);
         }
         printf("\n");
