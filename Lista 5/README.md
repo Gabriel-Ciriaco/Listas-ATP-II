@@ -8,7 +8,9 @@
 </div>
 
 ---
-### Progresso
+## Progresso
+
+![Resolvidos 100%](https://progress-bar.xyz/100/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/lista5_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/lista5_ex02.c)
@@ -30,10 +32,10 @@
 * [x] [Exercício 18](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/lista5_ex18.c)
 * [x] [Exercício 19](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/lista5_ex19.c)
 * [x] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/lista5_ex20.c)
----
 
 ---
-### Enunciado dos exercícios
+
+## Enunciado dos exercícios
 
 [Lista5.pdf](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%205/Lista%205.pdf)
 
