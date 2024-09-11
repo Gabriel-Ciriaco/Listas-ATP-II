@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>Algoritmos e Técnicas de Programação II.
+	<h1>Algoritmos e Técnicas de Programação II
 		<br/>
 			<h4>Resolução de exercícios trabalhados no curso de 
         <a href="https://www.fct.unesp.br/#!/graduacao/ciencia-da-computacao/">Ciência da Computação</a>
