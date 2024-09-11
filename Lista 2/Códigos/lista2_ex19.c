@@ -23,8 +23,9 @@ int main()
     printf("A matriz_2 eh: \n");
     imprimir_matriz(matriz2, ALTURA, LARGURA);
 
-    printf("Matriz 1 * Matriz 2: \n");
     matriz_mult_2x2(matriz_resultado, matriz1, matriz2);
+
+    printf("Matriz 1 * Matriz 2: \n");
     imprimir_matriz(matriz_resultado, LARGURA, LARGURA);
 
 
@@ -52,13 +53,11 @@ void matriz_mult_2x2(int resultado_2x2[2][2],
 
 void imprimir_matriz(int * ptr_matriz, int largura, int altura)
 {
-    int ** matriz;
+    // Criar um ponteiro apontando para um array.
+    int (*matriz)[altura] = ptr_matriz;
 
     for (int i = 0; i < largura; i++)
     {
-        // Alocar o sub_array na matriz.
-        matriz[i] = &ptr_matriz[i];
-
         for (int j = 0; j < altura; j++)
         {
             printf("%d ", matriz[i][j]);

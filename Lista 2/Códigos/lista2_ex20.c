@@ -9,7 +9,7 @@ void soma_coluna_mat_4x3(int matriz[LARGURA][ALTURA]);
 
 int main()
 {
-    int matriz[LARGURA][ALTURA] = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}, {1, 1, 1}};
+    int matriz[LARGURA][ALTURA] = {{1, 1, 1}, {1, 1, 2}, {1, 3, 1}, {4, 1, 1}};
 
 
     printf("A matriz eh: \n");
@@ -22,28 +22,26 @@ int main()
 
 void soma_coluna_mat_4x3(int matriz[LARGURA][ALTURA])
 {
-    for (int i = 0; i < ALTURA; i++)
+    for (int j = 0; j < ALTURA; j++)
     {
         int soma = 0;
 
-        for (int j = 0; j < LARGURA; j++)
+        for (int i = 0; i < LARGURA; i++)
         {
             soma += matriz[i][j];
         }
 
-        printf("Soma da coluna %d eh: %d\n", i + 1, soma);
+        printf("A soma dos elementos da coluna %d eh: %d\n", j + 1, soma);
     }
 }
 
 void imprimir_matriz(int * ptr_matriz, int largura, int altura)
 {
-    int ** matriz;
+    // Criar um ponteiro apontando para um array.
+    int (*matriz)[altura] = ptr_matriz;
 
     for (int i = 0; i < largura; i++)
     {
-        // Alocar o sub_array na matriz.
-        matriz[i] = &ptr_matriz[i];
-
         for (int j = 0; j < altura; j++)
         {
             printf("%d ", matriz[i][j]);

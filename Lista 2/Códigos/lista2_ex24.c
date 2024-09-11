@@ -95,7 +95,7 @@ int eh_ortogonal(int matriz[LARGURA][ALTURA])
 
 void imprimir_matriz(int * ptr_matriz, int largura, int altura)
 {
-    // Criamos um array de ponteiros com o tamanho da altura.
+    // Criar um ponteiro apontando para um array.
     int (* matriz)[altura] = ptr_matriz;
 
     for (int i = 0; i < largura; i++)

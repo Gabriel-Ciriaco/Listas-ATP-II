@@ -34,7 +34,7 @@ int main()
 
 void preencher_rand(int matriz[LARGURA][ALTURA], int intervalo)
 {
-    // Alimentar a seed o rand.
+    // Alimentar a seed do rand.
     srand((unsigned int) time(NULL));
 
     for (int i = 0; i < LARGURA; i++)
@@ -73,6 +73,7 @@ void swap(int * var_a, int * var_b)
 
 void imprimir_matriz(int * ptr_matriz, int largura, int altura)
 {
+    // Criar um ponteiro apontando para um array.
     int (* matriz)[altura] = ptr_matriz;
 
     for (int i = 0; i < largura; i++)
