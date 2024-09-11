@@ -2,7 +2,7 @@
 	<h1>Lista 1
 		<br/>
 			<sub>Resolução dos exercícios da disciplina
-        <a href="https://www.fct.unesp.br/#!/graduacao/ciencia-da-computacao/">CIC011DMC4T1</a>
+        <a href="https://drive.google.com/file/d/1mEmz9b7F-P5H8EztTPhIl_DUE1SCMIUK/view">CIC011DMC4T1</a>
       </sub>
 	</h1>
 </div>
