@@ -2,52 +2,61 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define SET_LEN 3
+#define CONJ_LEN 3
 
 
-void powerset(char * array, int i, char * subset, int subset_len);
+void conj_partes(char * conj, int i, char * subconj, int subconj_len);
+
 
 int main()
 {
-    char group[SET_LEN] = {'1', '2', '3'};
+    char conj[CONJ_LEN] = {'A', 'B', 'C'};
+    int subconj[CONJ_LEN];
 
-    int SUB_LEN = (int) pow(2, SET_LEN);
-    char subset[SUB_LEN];
 
-    powerset(group, 0, subset, 0);
-
-    for (int i = 0; i < SUB_LEN; i++)
-    {
-        printf("%c", subset[i]);
-    }
+    conj_partes(conj, 0, subconj, 0);
 
     return 0;
 }
 
-void powerset(char * array, int i, char * subset, int subset_len)
+/*
+    Retorna o conjunto das partes com recursão.
+
+    conj:        Nosso conjunto inicial.
+    i:           Indice atual.
+    subconj:     Subconjunto atual
+    subconj_len: Tamanho atual do subconjunto
+*/
+void conj_partes(char * conj, int i, char * subconj, int subconj_len)
 {
-    if (i == SET_LEN)
+    // Chegamos ao final do caminho
+    if (i == CONJ_LEN)
     {
+        // Imprimir o subconjunto atual
         printf("{");
-        for (int j = 0; j < subset_len; j++)
+
+        for (int j = 0; j < subconj_len; j++)
         {
-            if (j == subset_len - 1)
+            if (j == subconj_len - 1)
             {
-                printf("%c", subset[j]);
+                printf("%c", subconj[j]);
             }
             else
             {
-                printf("%c,", subset[j]);
+                printf("%c,", subconj[j]);
             }
         }
-
         printf("}\n");
+
         return;
     }
 
-    subset[subset_len] = array[i];
+    // Elemento atual
+    subconj[subconj_len] = conj[i];
 
-    powerset(array, i + 1, subset, subset_len + 1);
+    // Incluir o elemento atual no subconjunto
+    conj_partes(conj, i + 1, subconj, subconj_len + 1);
 
-    powerset(array, i + 1, subset, subset_len);
+    // Excluir o elemento atual do subconjunto
+    conj_partes(conj, i + 1, subconj, subconj_len);
 }
