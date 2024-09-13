@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-#define LINHA 2
-#define COLUNA 3
+#define LINHA 3
+#define COLUNA 2
 
 
 int main()
 {
-    int matriz[LINHA][COLUNA] = {{1, 2, 3}, {4, 5, 6}};
+    int matriz[LINHA][COLUNA] = {{1, 2}, {3, 4}, {5, 6}};
     int transposta[COLUNA][LINHA];
 
     // Imprimindo a matriz
