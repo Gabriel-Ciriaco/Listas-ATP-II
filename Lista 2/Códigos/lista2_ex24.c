@@ -57,9 +57,9 @@ int eh_ortogonal(int matriz[LARGURA][ALTURA])
     /* Criar matriz transposta */
     int transposta[ALTURA][LARGURA];
 
-    for (int i = 0; i < LARGURA; i++)
+    for (int i = 0; i < ALTURA; i++)
     {
-        for (int j = 0; j < ALTURA; j++)
+        for (int j = 0; j < LARGURA; j++)
         {
             transposta[i][j] = matriz[j][i];
         }
