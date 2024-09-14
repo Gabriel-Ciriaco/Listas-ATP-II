@@ -74,7 +74,7 @@ int eh_ortogonal(int matriz[LARGURA][ALTURA])
             // Alocar a matriz resultado.
             int elemento_atual = 0;
 
-            for (int d = j; d < ALTURA; d++)
+            for (int d = 0; d < ALTURA; d++)
             {
                 elemento_atual += matriz[i][d] * transposta[d][j];
             }

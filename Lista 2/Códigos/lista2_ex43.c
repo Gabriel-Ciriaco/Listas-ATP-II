@@ -1,38 +1,39 @@
 #include <stdio.h>
 
-#define DIM 5
+#define DIM 4
 
 
 void imprimir_matriz(int matriz[DIM][DIM]);
 
 int main()
 {
-    int matriz[DIM][DIM] = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 0}, {1, 2, 3, 4, 5}, {6, 7, 8, 9, 0}, {1, 2, 3, 4, 5}};
+    int matriz[DIM][DIM] = {{0, 2, 3, 4},
+                            {5, 0, 7, 8},
+                            {7, 8, 0, 1},
+                            {1, 2, 3, 0}};
 
 
     printf("A matriz eh:\n");
-    imprimir_matriz(matriz);
-    printf("\n");
 
-    // Cálculo da diagonal principal.
-    int mult = 1;
+    imprimir_matriz(matriz);
+
+
+    int soma_abaixo = 0;
 
     for (int i = 0; i < DIM; i++)
     {
         for (int j = 0; j < DIM; j++)
         {
-            if (i == j)
+            // Elemento abaixo da diagonal principal.
+            if (i > j)
             {
-                printf("Diagonal principal: %d", matriz[i][j]);
-                mult *= matriz[i][j];
+                soma_abaixo += matriz[i][j];
             }
         }
-        printf("\n");
     }
 
-    printf("\n");
-
-    printf("A multiplicacao da diagonal principal eh: %d", mult);
+    printf("\nA soma dos elementos abaixo da diagonal principal eh: %d\n",
+           soma_abaixo);
 }
 
 void imprimir_matriz(int matriz[DIM][DIM])
