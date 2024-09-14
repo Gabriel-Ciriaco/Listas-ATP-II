@@ -1,27 +1,28 @@
 #include <stdio.h>
 
+#define NUM_LEN 5
 
-int max(int * numeros, int i, int maior);
+
+int max(int * numeros, int i);
 
 int main()
 {
-    int numeros[5] = {1, -2, 3, -4, 5};
+    int numeros[NUM_LEN] = {1, -2, 3, -4, 5};
 
-    printf("O maior elemento eh: %d", max(numeros, 0, numeros[0]));
+    printf("O maior elemento eh: %d", max(numeros, NUM_LEN - 1));
 
     return 0;
 }
 
-int max(int * numeros, int i, int maior)
+int max(int * numeros, int i)
 {
-    if (numeros[i] == '\0')
+    if (i == 0)
     {
-        return maior;
-    }
-    else if (numeros[i] > maior)
-    {
-        maior = numeros[i];
+        return numeros[i];
     }
 
-    return max(numeros, i + 1, maior);
+    int maior = max(numeros, i - 1);
+
+    // Verifica se o elemento atual é o maior.
+    return numeros[i] > maior ? numeros[i] : maior;
 }
