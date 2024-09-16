@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 85%](https://progress-bar.xyz/85/?title=Resolvidos)
+![Resolvidos 86%](https://progress-bar.xyz/86/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex02.c)
@@ -65,7 +65,7 @@
 * [x] [Exercício 51](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex51.c)
 * [ ] [Exercício 52](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex52.c)
 * [x] [Exercício 53](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex53.c)
-* [ ] [Exercício 54](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex54.c)
+* [x] [Exercício 54](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex54.c)
 * [ ] [Exercício 55](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex55.c)
 * [x] [Exercício 56](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex56.c)
 * [x] [Exercício 57](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%202/Códigos/lista2_ex57.c)
