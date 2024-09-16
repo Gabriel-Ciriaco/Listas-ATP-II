@@ -19,6 +19,11 @@
 
 ---
 
+### Docente da Disciplina
+ * Danillo Roberto Pereira
+
+---
+
 ## Author ✨
 
 <table>
