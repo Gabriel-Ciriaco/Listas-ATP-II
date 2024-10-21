@@ -1,0 +1,81 @@
+<div align="center">
+	<h1>Lista 3
+		<br/>
+			<sub>Resolução dos exercícios da disciplina
+        <a href="https://drive.google.com/file/d/1mEmz9b7F-P5H8EztTPhIl_DUE1SCMIUK/view">CIC011DMC4T1</a>
+      </sub>
+	</h1>
+</div>
+
+---
+## Progresso
+
+![Resolvidos 0%](https://progress-bar.xyz/0/?title=Resolvidos)
+
+* [ ] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex01.c)
+* [ ] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex02.c)
+* [ ] [Exercício 3](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex03.c)
+* [ ] [Exercício 4](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex04.c)
+* [ ] [Exercício 5](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex05.c)
+* [ ] [Exercício 6](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex06.c)
+* [ ] [Exercício 7](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex07.c)
+* [ ] [Exercício 8](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex08.c)
+* [ ] [Exercício 9](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex09.c)
+* [ ] [Exercício 10](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex10.c)
+* [ ] [Exercício 11](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex11.c)
+* [ ] [Exercício 12](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex12.c)
+* [ ] [Exercício 13](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex13.c)
+* [ ] [Exercício 14](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex14.c)
+* [ ] [Exercício 15](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex15.c)
+* [ ] [Exercício 16](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex16.c)
+* [ ] [Exercício 17](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex17.c)
+* [ ] [Exercício 18](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex18.c)
+* [ ] [Exercício 19](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex19.c)
+* [ ] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex20.c)
+* [ ] [Exercício 21](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex21.c)
+* [ ] [Exercício 22](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex22.c)
+* [ ] [Exercício 23](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex23.c)
+* [ ] [Exercício 24](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex24.c)
+* [ ] [Exercício 25](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex25.c)
+* [ ] [Exercício 26](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex26.c)
+* [ ] [Exercício 27](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex27.c)
+* [ ] [Exercício 28](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex28.c)
+* [ ] [Exercício 29](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex29.c)
+* [ ] [Exercício 30](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex30.c)
+* [ ] [Exercício 31](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex31.c)
+* [ ] [Exercício 32](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex32.c)
+* [ ] [Exercício 33](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex33.c)
+* [ ] [Exercício 34](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex34.c)
+* [ ] [Exercício 35](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex35.c)
+* [ ] [Exercício 36](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex36.c)
+* [ ] [Exercício 37](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex37.c)
+* [ ] [Exercício 38](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex38.c)
+* [ ] [Exercício 39](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex39.c)
+* [ ] [Exercício 40](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex40.c)
+
+---
+## Enunciado dos exercícios
+
+[Lista3.pdf](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Enunciados/Lista%203.pdf)
+
+---
+
+### Docente da Disciplina
+ * Danillo Roberto Pereira
+
+---
+
+## Author ✨
+
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/Gabriel-Ciriaco">
+				<img src="https://avatars.githubusercontent.com/u/66225865" width="100px;" alt=""/>
+				<br>
+				<sub>
+					<b>Gabriel C. de Carvalho</b>
+				</sub>
+		</td>
+	</tr>
+</table>
