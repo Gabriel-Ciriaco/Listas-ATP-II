@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 50%](https://progress-bar.xyz/50/?title=Resolvidos)
+![Resolvidos 51%](https://progress-bar.xyz/51/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex02.c)
@@ -34,9 +34,9 @@
 * [x] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex20.c)
 * [x] [Exercício 21](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex21.c)
 * [ ] [Exercício 22](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex22.c)
-* [ ] [Exercício 23](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex23.c)
-* [ ] [Exercício 24](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex24.c)
-* [ ] [Exercício 25](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex25.c)
+* [x] [Exercício 23](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex23.c)
+* [x] [Exercício 24](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex24.c)
+* [x] [Exercício 25](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex25.c)
 * [ ] [Exercício 26](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex26.c)
 * [ ] [Exercício 27](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex27.c)
 * [ ] [Exercício 28](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex28.c)
