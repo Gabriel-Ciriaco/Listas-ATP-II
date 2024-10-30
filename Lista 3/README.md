@@ -21,7 +21,7 @@
 * [x] [Exercício 7](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex07.c)
 * [x] [Exercício 8](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex08.c)
 * [x] [Exercício 9](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex09.c)
-* [] [Exercício 10](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex10.c)
+* [ ] [Exercício 10](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex10.c)
 * [x] [Exercício 11](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex11.c)
 * [x] [Exercício 12](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex12.c)
 * [x] [Exercício 13](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex13.c)
