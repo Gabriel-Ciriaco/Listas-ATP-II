@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -17,12 +18,14 @@ typedef struct
 int main()
 {
     Aluno aluno;
-    char nome[100] = "Gabriel";
+    Aluno * ptr_aluno;
+
+    ptr_aluno = &aluno;
+
+    ptr_aluno->nome = "Gabriel";
 
     aluno.ra = 2345678;
 
-    aluno.nome = malloc(sizeof(char) * strlen(nome));
-    aluno.nome = nome;
 
     aluno.data_nascimento.dia = 2;
     aluno.data_nascimento.mes = 9;

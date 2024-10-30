@@ -15,7 +15,8 @@ int main()
 {
     int dia = SEGUNDA;
 
-    printf("dia");
+    printf("%d %d %d %d %d %d %d",
+     DOMINGO, SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO);
 
     return 0;
 }

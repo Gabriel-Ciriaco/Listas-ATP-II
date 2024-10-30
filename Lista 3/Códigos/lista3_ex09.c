@@ -11,7 +11,8 @@ typedef struct
 
 int main()
 {
-    printf("O tamanho da estrutura eh: %d",
+    printf("O tamanho da estrutura eh: %d\n",
             sizeof(Pessoa));
+
     return 0;
 }

@@ -14,7 +14,7 @@ int main()
     Aluno aluno;
 
     printf("Digite o nome do Aluno: ");
-    fgets(aluno.nome, 100, stdin);
+    gets(aluno.nome);
 
     printf("Digite a matricula do Aluno: ");
     scanf("%d", &aluno.matricula);
@@ -22,7 +22,7 @@ int main()
     printf("Digite a nota do Aluno: ");
     scanf("%d", &aluno.nota);
 
-    printf("\nNome: %sMatricula: %d\nAno: %d\n",
+    printf("\nNome: %s\nMatricula: %d\nAno: %d\n",
            aluno.nome, aluno.matricula, aluno.nota);
 
     return 0;

@@ -18,7 +18,6 @@ int main()
 
     ptr_aluno = &aluno;
 
-    ptr_aluno->nome = malloc(sizeof(char) * NOME_SIZE);
     ptr_aluno->nome = "Gabriel";
 
     ptr_aluno->matricula = 2345678;

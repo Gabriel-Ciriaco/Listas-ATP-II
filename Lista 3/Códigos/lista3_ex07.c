@@ -14,7 +14,6 @@ void atualizar_aluno(Aluno * aluno,
                       int matricula,
                       int nota)
 {
-    aluno -> nome = malloc(sizeof(char) * strlen(nome));
     aluno -> nome = nome;
 
     //(*aluno).matricula = matricula;
