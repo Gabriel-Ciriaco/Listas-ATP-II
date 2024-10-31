@@ -13,7 +13,7 @@
 
 * [x] [Lista 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%201#readme)
 * [ ] [Lista 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%202#readme)
-* [ ] Lista 3
+* [ ] [Lista 3](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%203#readme)
 * [ ] Lista 4
 * [x] [Lista 5](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%205#readme)
 
