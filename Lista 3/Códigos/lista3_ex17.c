@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define titulo_SIZE 8
-
 
 typedef struct
 {

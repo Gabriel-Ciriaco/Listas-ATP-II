@@ -42,5 +42,6 @@ int main()
 
     printf("O telefone do aluno %d eh: %d\n\n", i + 1, alunos[i].telefone);
   }
+
   return 0;
 }
