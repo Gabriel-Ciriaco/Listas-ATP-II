@@ -14,7 +14,7 @@
 * [x] [Lista 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%201#readme)
 * [ ] [Lista 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%202#readme)
 * [x] [Lista 3](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%203#readme)
-* [ ] Lista 4
+* [ ] [Lista 4](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%204#readme)
 * [x] [Lista 5](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/tree/main/Lista%205#readme)
 
 ---
