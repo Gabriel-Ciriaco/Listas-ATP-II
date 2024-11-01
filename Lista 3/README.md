@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 92%](https://progress-bar.xyz/92/?title=Resolvidos)
+![Resolvidos 100%](https://progress-bar.xyz/100/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex02.c)
@@ -49,9 +49,9 @@
 * [x] [Exercício 35](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex35.c)
 * [x] [Exercício 36](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex36.c)
 * [x] [Exercício 37](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex37.c)
-* [ ] [Exercício 38](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex38.c)
-* [ ] [Exercício 39](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex39.c)
-* [ ] [Exercício 40](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex40.c)
+* [x] [Exercício 38](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex38.c)
+* [x] [Exercício 39](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex39.c)
+* [x] [Exercício 40](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%203/Códigos/lista3_ex40.c)
 
 ---
 ## Enunciado dos exercícios
