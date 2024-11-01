@@ -20,7 +20,7 @@ int main()
 
   professor.salario = 2000;
 
-  printf("Nome: %s\nDiscpilina: %s\nSalario: %d\n",
+  printf("Nome: %s\nDiscipilina: %s\nSalario: %d\n",
     professor.nome,
     professor.disciplina,
     professor.salario
