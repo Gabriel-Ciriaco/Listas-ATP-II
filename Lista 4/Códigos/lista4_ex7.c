@@ -4,21 +4,6 @@
 
 
 /**
- * Retorna o tamanho da maior palavra.
- */
-int maior_palavra_tamanho(char * palavra_1, char * palavra_2)
-{
-  if (strlen(palavra_1) > strlen(palavra_2))
-  {
-    return strlen(palavra_1);
-  }
-  else
-  {
-    return strlen(palavra_2);
-  }
-}
-
-/**
  * Retorna o indice de onde a palavra está no txt.
  */
 int encontrar_palavra(char * arquivo_path, char * palavra)
@@ -30,13 +15,14 @@ int encontrar_palavra(char * arquivo_path, char * palavra)
   char c;
   int i = 0;
   int j = 0;
-  int caracteres_iguais = 0;
 
+  int caracteres_iguais = 0;
   int tamanho_palavra = strlen(palavra);
 
   // Lendo o arquivo caracter por caracter.
   while (fscanf(arquivo, "%c", &c) != EOF)
   {
+    // Caracter da palavra é igual o do arquivo.
     if (palavra[j] == c)
     {
       caracteres_iguais++;
@@ -51,8 +37,13 @@ int encontrar_palavra(char * arquivo_path, char * palavra)
     if (caracteres_iguais == tamanho_palavra)
     {
       fclose(arquivo);
-      return i + 1 - tamanho_palavra;
+
+      // Posição inicial da palavra encontrada.
+      int pos_ini_encontrada = i + 1 - tamanho_palavra;
+
+      return pos_ini_encontrada;
     }
+
     i++;
   }
 
@@ -80,7 +71,7 @@ void substituir_palavra(char * arquivo_path,
     // Criamos um arquivo temporário com as modificações.
     char temp[100];
     strcpy(temp, arquivo_path);
-    strcat(temp, "_new.txt");
+    strcat(temp, "_new.txt"); // O arquivo sera "nome_original.txt_new.txt"
 
     arquivo_leitura = fopen(arquivo_path, "r");
     arquivo_substituir = fopen(temp, "w");
@@ -90,7 +81,7 @@ void substituir_palavra(char * arquivo_path,
       char c;
       int i = 0;
       int j = 0;
-      int max_tamanho_palavra = maior_palavra_tamanho(palavra_original, nova_palavra);
+
       while (fscanf(arquivo_leitura, "%c", &c) != EOF)
       {
         // Substituir a palavra encontrada.
@@ -103,8 +94,13 @@ void substituir_palavra(char * arquivo_path,
             j++;
           }
         }
-        // Só printamos caracteres que não estão no indice da palavra.
-        else if (i < posicao_palavra || i > posicao_palavra + strlen(nova_palavra))
+        /*Só printamos caracteres que não estão nos índices da palavra,
+          ou seja, se a palavra ocupa os índices 1 e 2, qualquer índice
+          diferente de 1 e 2 será printado igual está no arquivo original.
+        */
+        else if (i < posicao_palavra ||
+                 i >= posicao_palavra +
+                  strlen(palavra_original))
         {
           fprintf(arquivo_substituir, "%c", c);
         }
@@ -121,6 +117,7 @@ void substituir_palavra(char * arquivo_path,
     {
       fclose(arquivo_leitura);
       fclose(arquivo_substituir);
+
       printf("[SUBSTITUIR PALAVRA]: Nao foi possivel salvar o arquivo");
     }
   }
@@ -128,7 +125,7 @@ void substituir_palavra(char * arquivo_path,
 
 int main()
 {
-  substituir_palavra("./lista4_ex7.txt", "oi", "ae");
+  substituir_palavra("./lista4_ex7.txt", "oi", "eae");
 
   return 0;
 }
