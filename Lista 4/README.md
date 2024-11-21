@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 39%](https://progress-bar.xyz/39/?title=Resolvidos)
+![Resolvidos 50%](https://progress-bar.xyz/50/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex02.c)
@@ -27,10 +27,10 @@
 * [x] [Exercício 13](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex13.c)
 * [x] [Exercício 14](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex14.c)
 * [x] [Exercício 15](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex15.c)
-* [ ] [Exercício 16](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex16.c)
-* [ ] [Exercício 17](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex17.c)
-* [ ] [Exercício 18](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex18.c)
-* [ ] [Exercício 19](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex19.c)
+* [x] [Exercício 16](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex16.c)
+* [x] [Exercício 17](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex17.c)
+* [x] [Exercício 18](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex18.c)
+* [x] [Exercício 19](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex19.c)
 * [ ] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex20.c)
 * [ ] [Exercício 21](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex21.c)
 * [ ] [Exercício 22](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex22.c)
