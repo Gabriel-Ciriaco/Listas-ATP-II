@@ -5,28 +5,36 @@
 #define NUMS_SIZE 7
 
 
-int busca_binaria(int elemento, int * array, int array_size)
+int busca_binaria(int elemento, FILE * arquivo)
 {
   int left = 0;
-  int right = array_size;
+
+  // Descubrindo quantos números estão amarzenados.
+  fseek(arquivo, 0, SEEK_END);
+  int right = ftell(arquivo) / sizeof(int);
 
   while (left <= right)
   {
     int pivot = (left + right) / 2;
 
-    if (array[pivot] == elemento)
+    // Colocamos o ponteiro onde está o pivot.
+    fseek(arquivo, pivot * sizeof(int), SEEK_SET);
+    int elemento_pivot = 0;
+    fread(&elemento_pivot, sizeof(int), 1, arquivo);
+
+    if (elemento_pivot == elemento)
     {
       return pivot;
     }
 
-    if (array[pivot] > elemento)
+    if (elemento_pivot > elemento)
     {
-      right--;
+      right = pivot - 1;
     }
     
-    if (array[pivot] < elemento)
+    if (elemento_pivot < elemento)
     {
-      left++;
+      left = pivot + 1;
     }
   }
 
@@ -48,14 +56,13 @@ int main()
   {
     int numeros[NUMS_SIZE];
 
-    fread(numeros, sizeof(int), NUMS_SIZE, arquivo_bin);
+    //fread(numeros, sizeof(int), NUMS_SIZE, arquivo_bin);
 
-    int index_num = busca_binaria(20, numeros, NUMS_SIZE);
+    int index_num = busca_binaria(20, arquivo_bin);
 
     if (index_num != -1)
     {
       printf("O elemento esta na posicao: %d\n", index_num);
-      printf("O elemento: %d", numeros[index_num]);
     }
     else
     {
