@@ -23,6 +23,7 @@ int tamanho_arquivo(char * arquivo_path)
     printf("[TAMANHO_ARQUIVO]: Nao foi possivel abrir o arquivo: %s.\n",
            arquivo_path);
   }
+
   fclose(arquivo);
 
   return 0;
@@ -32,7 +33,7 @@ int main()
 {
   DIR * diretorio;
 
-  struct dirent * entrada;
+  struct dirent * arquivo;
   struct stat tipo_arquivo;
 
   int soma_arquivos = 0;
@@ -41,12 +42,15 @@ int main()
 
   if (diretorio != NULL)
   {
-    while (((entrada=readdir(diretorio))))
+    while (((arquivo=readdir(diretorio))))
     {
-      stat(entrada->d_name, &tipo_arquivo);
+      // Lê o tipo que é o arquivo.
+      stat(arquivo->d_name, &tipo_arquivo);
+
+      // Verifica se não é um diretório.
       if (!S_ISDIR(tipo_arquivo.st_mode))
       {
-        soma_arquivos += tamanho_arquivo(entrada->d_name);
+        soma_arquivos += tamanho_arquivo(arquivo->d_name);
       }
     }
 
