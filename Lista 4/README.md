@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 50%](https://progress-bar.xyz/50/?title=Resolvidos)
+![Resolvidos 64%](https://progress-bar.xyz/64/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex02.c)
@@ -31,13 +31,13 @@
 * [x] [Exercício 17](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex17.c)
 * [x] [Exercício 18](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex18.c)
 * [x] [Exercício 19](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex19.c)
-* [ ] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex20.c)
-* [ ] [Exercício 21](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex21.c)
-* [ ] [Exercício 22](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex22.c)
+* [x] [Exercício 20](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex20.c)
+* [x] [Exercício 21](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex21.c)
+* [x] [Exercício 22](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex22.c)
 * [ ] [Exercício 23](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex23.c)
 * [ ] [Exercício 24](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex24.c)
-* [ ] [Exercício 25](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex25.c)
-* [ ] [Exercício 26](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex26.c)
+* [x] [Exercício 25](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex25.c)
+* [x] [Exercício 26](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex26.c)
 * [ ] [Exercício 27](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex27.c)
 * [ ] [Exercício 28](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex28.c)
 * [ ] [Exercício 29](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex29.c)
