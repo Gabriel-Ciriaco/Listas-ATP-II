@@ -62,7 +62,7 @@ int main()
 
     if (index_num != -1)
     {
-      printf("O elemento esta na posicao: %d\n", index_num);
+      printf("O elemento esta no indice do array: %d\n", index_num);
     }
     else
     {
