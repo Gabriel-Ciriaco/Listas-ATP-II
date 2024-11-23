@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 72%](https://progress-bar.xyz/72/?title=Resolvidos)
+![Resolvidos 76%](https://progress-bar.xyz/76/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex02.c)
