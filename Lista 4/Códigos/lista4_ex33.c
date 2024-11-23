@@ -12,7 +12,9 @@ typedef struct
   int RA;
 } Aluno;
 
-
+/**
+ * Retorna o índice de onde está o aluno.
+ */
 int busca_binaria(char * nome_aluno, FILE * arquivo)
 {
   int left = 0;
@@ -50,6 +52,10 @@ int busca_binaria(char * nome_aluno, FILE * arquivo)
   return -1;
 }
 
+/**
+ * Ordenamos e salvamos os alunos por ordem alfabética
+ * no arquivo binário.
+ */
 void ordernar(char * arquivo_path, Aluno * alunos)
 {
   FILE * arquivo;
@@ -58,6 +64,9 @@ void ordernar(char * arquivo_path, Aluno * alunos)
 
   if (arquivo != NULL)
   {
+    /**
+     * Ordenação simples.
+     */
     for (int i = 0; i < QTD_ALUNO; i++)
     {
       for (int j = 0; j < QTD_ALUNO; j++)
@@ -100,7 +109,7 @@ int main()
 
     ordernar("./lista4_ex33.bin", alunos);
 
-    printf("Achei a pessoa no indice: %d",
+    printf("A pessoa esta no indice: %d",
            busca_binaria("Joelma", arquivo));
   }
   else
