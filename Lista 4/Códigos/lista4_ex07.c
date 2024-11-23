@@ -14,7 +14,6 @@ int encontrar_palavra(char * arquivo_path, char * palavra)
 
   char c;
   int i = 0;
-  int j = 0;
 
   int caracteres_iguais = 0;
   int tamanho_palavra = strlen(palavra);
@@ -23,15 +22,13 @@ int encontrar_palavra(char * arquivo_path, char * palavra)
   while (fscanf(arquivo, "%c", &c) != EOF)
   {
     // Caracter da palavra é igual o do arquivo.
-    if (palavra[j] == c)
+    if (palavra[caracteres_iguais] == c)
     {
       caracteres_iguais++;
-      j++;
     }
     else
     {
       caracteres_iguais = 0;
-      j = 0;
     }
 
     if (caracteres_iguais == tamanho_palavra)

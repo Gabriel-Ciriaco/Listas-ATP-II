@@ -84,6 +84,7 @@ int main()
     printf("Nao foi possivel ler o arquivo.");
   }
 
+  fclose(arquivo);
 
   return 0;
 }
