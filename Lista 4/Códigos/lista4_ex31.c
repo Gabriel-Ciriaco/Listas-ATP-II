@@ -38,12 +38,13 @@ int main()
 
   int soma_arquivos = 0;
 
+  // Abre o diretório atual.
   diretorio = opendir(".");
 
   if (diretorio != NULL)
   {
     // Lendo os arquivos presentes no diretório.
-    while (((arquivo=readdir(diretorio))))
+    while ((arquivo=readdir(diretorio)))
     {
       // Lê o tipo que é o arquivo.
       stat(arquivo->d_name, &tipo_arquivo);
@@ -55,7 +56,7 @@ int main()
       }
     }
 
-    printf("O total de arquivos ocupados pelo diretorio eh: %d bytes",
+    printf("O total de arquivos ocupados pelo diretorio eh: %d bytes.",
            soma_arquivos);
   }
   else
