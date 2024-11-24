@@ -42,6 +42,7 @@ int main()
 
   if (diretorio != NULL)
   {
+    // Lendo os arquivos presentes no diretório.
     while (((arquivo=readdir(diretorio))))
     {
       // Lê o tipo que é o arquivo.

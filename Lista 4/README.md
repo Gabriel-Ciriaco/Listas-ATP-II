@@ -10,7 +10,7 @@
 ---
 ## Progresso
 
-![Resolvidos 84%](https://progress-bar.xyz/84/?title=Resolvidos)
+![Resolvidos 86%](https://progress-bar.xyz/86/?title=Resolvidos)
 
 * [x] [Exercício 1](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex01.c)
 * [x] [Exercício 2](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex02.c)
@@ -49,7 +49,7 @@
 * [x] [Exercício 35](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex35.c)
 * [x] [Exercício 36](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex36.c)
 * [x] [Exercício 37](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex37.c)
-* [ ] [Exercício 38](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex38.c)
+* [x] [Exercício 38](https://github.com/Gabriel-Ciriaco/Listas-ATP-II/blob/main/Lista%204/Códigos/lista4_ex38.c)
 
 ---
 
